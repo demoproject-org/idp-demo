@@ -227,7 +227,7 @@ aws_secret_access_key = $AWS_SECRET_ACCESS_KEY
     kubectl --namespace crossplane-system create secret generic aws-creds --from-file creds=./aws-creds.conf
 
     set +e
-    aws secretsmanager create-secret --name production-postgresql --region us-east-1 --secret-string '{"password": "YouWillNeverFindOut"}'
+    aws secretsmanager create-secret --name production-postgresql --region eu-central-1 --secret-string '{"password": "YouWillNeverFindOut"}'
     set -e
 
     kubectl create namespace external-secrets

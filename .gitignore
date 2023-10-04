@@ -4,3 +4,7 @@
 /gke_gcloud_auth_plugin_cache
 /.env
 .DS_Store
+/aws-creds.conf
+/aws-iam-authenticator
+meinport.2023-10-03.private-key.pem
+setup2.sh

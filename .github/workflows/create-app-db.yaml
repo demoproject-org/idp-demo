@@ -6,12 +6,12 @@ on:
         required: true
         description: "Repository organization"
         type: string
-        default: "devopsparadox"
+        default: "demoproject-org"
       repo-user:
         required: true
         description: "Repository user"
         type: string
-        default: "vfarcic"
+        default: "m1lan"
       repo-name:
         required: true
         description: "Repository name"
@@ -21,7 +21,7 @@ on:
         required: true
         description: "Image repository"
         type: string
-        default: "docker.io/vfarcic"
+        default: "docker.io/insomniasalt"
       environment:
         required: true
         description: "Environment to deploy app to (production, staging, development)"
