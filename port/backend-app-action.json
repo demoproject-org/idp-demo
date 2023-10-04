@@ -11,7 +11,7 @@
       "repo-user": {
         "type": "string",
         "title": "Repo User",
-        "default": "vfarcic"
+        "default": "m1lan"
       },
       "repo-name": {
         "type": "string",
@@ -21,7 +21,7 @@
       "image-repo": {
         "type": "string",
         "title": "Image repository",
-        "default": "docker.io/vfarcic"
+        "default": "docker.io/insomniasalt"
       },
       "host": {
         "type": "string",
